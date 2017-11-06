@@ -1,76 +1,172 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Mentor profile</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-  <link rel="stylesheet" href="./profile_format.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>        
-</head>
+<html lang="en">
 
-<body>
-  <div class='container'>
-  <div class="row">
-  	<div class="col-md-6 offset-md-2">
-  			<h1>Is this your mentor?</h1>
-  	</div>
-	</div>
+  <head>
+    <title>Mentor profile</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
-  <div id='profile'>
-    <h2>Meet...</h2>
-    <div class="row" class="scrollthrough">
-    <div class="col-md-4" id="Alexa">
-    <img src='https://cdn.pixabay.com/photo/2014/04/02/10/25/man-303792_960_720.png' style="width:350px;height:350px;">
-    <h3><strong>Alexa</strong></h3>
-    <ul>
-      <li>University (logo?)</li>
-      <li>subject studied</li>
-      <li>Extra interests/non-academic life</li>
-      <li>future plans</li>
-      <li>Overall rating of university / next to overall rating of course (eg 3 out of 5 stars)</li>
-      <li>favourite modules (pop out later)</li>
-      <li>favourite lecturer (pop out later)</li>
-    </ul>
-    </div>
-    <div class="col-md-4" id="Jenny">
-    <img src='https://cdn.pixabay.com/photo/2014/04/02/10/25/man-303792_960_720.png' style="width:350px;height:350px;">
-    <h3><strong>Jenny</strong></h3>
-    <ul>
-      <li>University (logo?)</li>
-      <li>subject studied</li>
-      <li>Extra interests/non-academic life</li>
-      <li>future plans</li>
-      <li>Overall rating of university / next to overall rating of course (eg 3 out of 5 stars)</li>
-      <li>favourite modules (pop out later)</li>
-      <li>favourite lecturer (pop out later)</li>
-    </ul>
-    </div>
-    <div class="col-md-4" id="Holly">
-    <img src='https://cdn.pixabay.com/photo/2014/04/02/10/25/man-303792_960_720.png' style="width:350px;height:350px;">
-    <h3><strong>Holly</strong></h3>
-    <ul>
-      <li>University (logo?)</li>
-      <li>subject studied</li>
-      <li>Extra interests/non-academic life</li>
-      <li>future plans</li>
-      <li>Overall rating of university / next to overall rating of course (eg 3 out of 5 stars)</li>
-      <li>favourite modules (pop out later)</li>
-      <li>favourite lecturer (pop out later)</li>
-    </ul>
-    </div>
-  </div>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="./profile_format.css">
+
+    <!-- Custom styles for this template -->
+    <style>
+      body {
+        padding-top: 56px;
+      }
+      @media (min-width: 992px) {
+        body {
+          padding-top: 100px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info text-white fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">UniChat</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mentor Profiles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <h1>Is this your mentor?</h1>
+        </div>
+      </div>   
+
+      <div id="profile" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#profile" data-slide-to="0" class="active"></li>
+          <li data-target="#profile" data-slide-to="1"></li>
+          <li data-target="#profile" data-slide-to="2"></li>
+        </ol>
+ 
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="col-md-6 offset-md-3">
+            <div class="card bg-info text-white" style="width:600px">
+              <img class="card-img-top" src="https://images.unsplash.com/photo-1506956191951-7a88da4435e5?auto=format&fit=crop&w=667&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" style="width:100%;">
+              <div class="card-header">Alexa</div>
+              <div class="card-body">
+                <ul>
+                  <li>University (logo?)</li>
+                  <li>subject studied</li>
+                  <li>Extra interests/non-academic life</li>
+                  <li>future plans</li>
+                  <li>Overall rating of university / next to overall rating of course (eg 3 out of 5 stars)</li>
+                </ul>
+                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#preferencesA">Course preferences</button>
+                <div id="preferencesA" class="collapse">
+                  <ul>
+                    <li>favourite modules</li>
+                    <li>favourite lecturer</li>
+                  </ul>
+                </div>
+              </div> 
+            </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="col-md-6 offset-md-3">
+            <div class="card bg-info text-white" style="width:600px">
+              <img class="card-img-top" src="https://images.pexels.com/photos/324658/pexels-photo-324658.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" style="width:100%;">
+              <div class="card-header">Jenny</div>
+              <div class="card-body">
+                <ul>
+                  <li>University (logo?)</li>
+                  <li>subject studied</li>
+                  <li>Extra interests/non-academic life</li>
+                  <li>future plans</li>
+                  <li>Overall rating of university / next to overall rating of course (eg 3 out of 5 stars)</li>
+                </ul>
+                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#preferencesJ">Course preferences</button>
+                <div id="preferencesJ" class="collapse">
+                  <ul>
+                    <li>favourite modules</li>
+                    <li>favourite lecturer</li>
+                  </ul>
+                </div>   
+              </div> 
+            </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="col-md-6 offset-md-3">
+            <div class="card bg-info text-white" style="width:600px">
+              <img class="card-img-top" src="https://images.pexels.com/photos/372042/pexels-photo-372042.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" style="width:100%;">
+              <div class="card-header">Holly</div>
+              <div class="card-body">
+                <ul>
+                  <li>University (logo?)</li>
+                  <li>subject studied</li>
+                  <li>Extra interests/non-academic life</li>
+                  <li>future plans</li>
+                  <li>Overall rating of university / next to overall rating of course (eg 3 out of 5 stars)</li>
+                </ul>
+                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#preferencesH">Course preferences</button>
+                <div id="preferencesH" class="collapse">
+                  <ul>
+                    <li>favourite modules</li>
+                    <li>favourite lecturer</li>
+                  </ul>
+                </div>
+              </div> 
+            </div>
+            </div>
+          </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#profile" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#profile" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+
+    </div>
 
     <div id='social-buttons'>
       <button class='btn-twitter'>Twitter</button>
       <button class='btn-facebook'>Facebook</button>
       <button class='btn-pinterest'>Pinterest</button>
     </div>
-  </div>
-</div>
-</body>
+    
+  
+    <!-- Bootstrap core JavaScript -->
+    <!-- <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+  </body>
 
 </html>
