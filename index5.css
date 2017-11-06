@@ -11,10 +11,18 @@
 	font-size: 28px;
 }
 #round-image {
-	border:10px solid #5DBCD2;
-	padding: 25px;
+	padding: 50px;
 }
 #maintext {
 	padding: 50px;
+}
+footer {
+	background-color: #5DBCD2;
+	background-size:cover;
+	min-height: 100px;
+}
+p {
+	font-size: 18px;
+	color: #454343
 }
 
