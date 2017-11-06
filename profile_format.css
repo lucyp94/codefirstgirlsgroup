@@ -19,4 +19,11 @@ body {
 	-o-background-size: cover;
 	min-height: 500px;
 	padding-top: 150px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.card-header {
+	text-align: center;
+	font-size: 30px;
 }
