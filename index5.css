@@ -20,9 +20,17 @@ footer {
 	background-color: #5DBCD2;
 	background-size:cover;
 	min-height: 100px;
+	color: white;
 }
-p {
+#maintext {
 	font-size: 18px;
 	color: #454343
 }
+#footer-text {
+	font-size: 14px;
+	padding: 10px 30px 10px 10px;
+	text-align: right;
+	color: white;
+}
+
 
