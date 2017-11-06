@@ -9,6 +9,10 @@ h1 {
 	padding: 40px;
 }
 
+#maincard{
+	padding-bottom: 70px;
+}
+
 .navbar-brand {
 	font-family: 'Permanent Marker', cursive;
 	font-size: 28px;
@@ -16,6 +20,7 @@ h1 {
 
 .carousel-control-next-icon {
     color: black;
+    margin: auto;
 }
 
 body {
@@ -38,6 +43,7 @@ body {
 	border-color: white;
 	border-width: 5px;
 	border-radius: 2%;
+	text-align: center;
 }
 
 
@@ -47,8 +53,18 @@ body {
 	font-size: 45px;
 }
 
+ul{
+	list-style: none;
+}
+
 .btn-outline-primary{
  	position:absolute;
  	top:30px;
  	left:30px;
+}
+
+.btn-primary{
+	text-align: center;
+	margin: auto;
+	margin-bottom: 40px;
 }
