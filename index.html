@@ -1,41 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<head>
+	<script   src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
 
-  <head>
-
-  	​<script   src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
-
-    <meta charset="utf-8">
+	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>UniChat</title>
-
-    <!-- Bootstrap core CSS -->
+	<title>UniChat</title>
+	
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
-    <!-- Custom styles for this template -->
-     <style>
-      body {
-      	 background: url("http://dash.ga.co/assets/anna-bg.png");
-      	background-size: cover;
-      	background-position: center;
-        padding-top: 54px;
-      }
-      @media (min-width: 992px) {
-        body {
-          padding-top: 56px;
-        }
-      }
-      </style>
+    <link rel='stylesheet' type='text/css' href='index5.css'>
 
-  </head>
 
-  <body>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+
+	<style>
+	   header {
+	   	text-align:center;
+	   	color:white;
+	   	background-image: url(./darker_cover_unichat.jpg);
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		background-position: bottom;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+		-o-background-size: cover;
+		min-height: 600px;
+		padding-top: 150px;
+		font-family: 'Open Sans', sans-serif;
+	   }
+
+
+	 </style>
+	</head>
+	<body>
+		<header>
+			<img src="./unichat_logo_200.png" class="rounded-circle">
+			<h1 class="heading">UniChat</h1>
+			<h2 class="subheading"> Sixth Form student? Questions about Uni? Our 150 mentors have the answers.</h2>
+		</header>
+
+		<div class="container">
+		<div id="maintext">
+			<p class="text-center"> If you’re a Sixth Form student applying to Uni, it’s likely you have a few questions!  What will my halls be like? How will my course be structured week to week? What’s the Sports Centre like?</p>
+			<p class="text-center">Wouldn’t it be great if you could have a direct line to a student already studying a similar course, or already enrolled at your dream Uni?</p>
+			<p class="text-center">Now you can!</p>
+			<p class="text-center">UniChat pairs you with a current student who is enrolled in a similar course, or at a similar Uni, to the one you’re interested in, depending on your preferences. Using our webchat, you can ask your new mentor all the questions you have about your next big step. It’s as easy as that!</p>
+		</div>
+		</div>
+
+		
+
+		<!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">UniChat</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,7 +72,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Profiles</a>
+              <a class="nav-link" href="./profile.html">Profiles</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
@@ -58,21 +81,16 @@
         </div>
       </div>
     </nav>
+    <footer>
+    	<a href="./searchform.html">
+    	<div class="text-center">
+		<img id="round-image" class="rounded-circle" src="./Find_your_mentor.png">
+		</div>
+		</a>
 
-    <!-- Page Content -->
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h1 class="mt-5">UniChat</h1>
-          <p class="lead">Questions about Uni? Our 150 mentors have the answers.</p>
-        </div>
-      </div>
-    </div>
+		<div id="footer-text">
+		<p> Site made by: Dominika, Anna and Lucy</p>
+		</div>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  </body>
-
-</html>
+    </footer>
+	</body>
